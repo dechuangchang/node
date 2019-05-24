@@ -68,9 +68,14 @@ var urlencodedParser = bodyParser.urlencoded({ extended: false })
 // });
 
 
-app.post('/upload', upload.single('logo'), function(req, res) {
-  console.dir(req.file);
-  res.send({ 'ret_code': 0 });
-});
+// app.post('/upload', upload.single('logo'), function(req, res) {
+//   console.dir(req.file);
+//   res.send({ 'ret_code': 0 });
+// });
+
+// app.get('/', function(req, res) {
+  
+//   res.json({a:1});
+// });
 app.listen(3000);
 console.log('listening to port 3000');
