@@ -3,7 +3,10 @@ const Translator = require('./translator');
 let translator = new Translator();
 
 
-var name = 'act';
+var name = 'withDrawRecord';
+
+
+
 translator.config = {
   from: 'zh-CHS', // zh-CHS(中文) || ja(日语) || EN(英文) || fr(法语) ...
   to: 'ja',
@@ -13,18 +16,9 @@ translator.config = {
 
 async function translateString(str) {
   let resultStr = await translator.translate(str)
-  // console.log(JSON.parse(resultStr)[0])
-  return JSON.parse(resultStr).translation[0];
+  return JSON.parse(resultStr).errorCode== 0 ? JSON.parse(resultStr).translation[0]:JSON.parse(resultStr).query+'->error';
 }
 
-
-
-
-
-
-  // translateString('第').then(res2=>{
-  //     console.log(res2)
-  // })
 
 
 let data = fs.readFileSync('./zh/'+name+'.js',"utf8").toString();
@@ -53,4 +47,4 @@ timer = setInterval(()=>{
   })
   
   
-},2000)
+},2222)

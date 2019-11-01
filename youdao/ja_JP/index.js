@@ -57,7 +57,7 @@ const zhTw = {
     payOrWithDraw:PayOrWithDraw,
     successDealPwd:SuccessDealPwd,
     successPwd:SuccessPwd,
-    timeOut: '登錄超時，請從新登錄',
+    timeOut: 'ログインタイムアウトですので、新規にログインしてください',
     ask:Ask,
     CurrentDelegation:CurrentDelegation,
     informationMain:InformationMain,
