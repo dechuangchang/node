@@ -1,0 +1,23 @@
+export default {
+    title: '登錄',
+    welcomeLogin: '歡迎登錄',
+    ipe: '郵箱或手機',
+    ippwd: '密碼',
+    ipvc: '驗證碼',
+    fpws: '忘記密碼',
+    notIn: '未開通帳戶',
+    rg: '註冊',
+    lm: '*填寫有誤',
+    service:'官方服務、交流群',
+    gaCode: '谷歌驗證碼',
+    submit: '確認提交',
+    userNameWarn: '*非大陸地區用戶手機登錄時請填寫區號',
+  onelogin:'使用 CHAOEX App 掃碼，一步登錄',
+  timeout:'二維碼超時，請點擊刷新',
+  sanl:'掃碼登錄',
+  pdl:'密碼登錄',
+  accl:'账户登錄',
+  noapp:'還沒有 CHAOEX App',
+  godown:'去下載',
+}
+

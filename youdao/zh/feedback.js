@@ -1,0 +1,17 @@
+export default {
+    feedback:'反饋記錄',
+    qus:'問題類型',
+    dec:'問題描述',
+    qus1:'驗證問題',
+    qus2:'充值',
+    qus3:'提現',
+    qus4:'訂單',
+    qus5:'交易',
+    qus6:'賬戶',
+    qus7:'其他',
+    upload:'上傳照片',
+    me:'我',
+    service:'客服',
+    say:'說點什麽',
+    ask:'追問',
+}

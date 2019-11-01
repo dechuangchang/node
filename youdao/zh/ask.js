@@ -1,0 +1,17 @@
+export default {
+    apply:'提交申請',
+    qus:'請選擇您的問題',
+    email:'請輸入您的電子郵件',
+    des:'請描述您的問題',
+    img:'上傳截圖',
+    qus1:'驗證問題',
+    qus2:'充值',
+    qus3:'提現',
+    qus4:'訂單',
+    qus5:'交易',
+    qus6:'賬戶',
+    qus7:'其他',
+    submit:'提交',
+    success:'提交成功',
+    phone:'請輸入您的電話',
+}
